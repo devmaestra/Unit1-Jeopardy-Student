@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    margin: 50px auto;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    overflow: auto;
+    height: 100%;
+    width: auto;
+    background-image: linear-gradient(to bottom, #5C6B73, #9DB4C0, #C2DFE3);
+}
+.titlelogo {
+    font-family: 'Korinna-Regular';
+    margin: 50px 20px auto;
+    padding: 20px;
+}
+#logo {
+    width:fit-content;
+    border: 50px solid #E0FBFC;
+    background-color: #E0FBFC;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px #253237;
+    
+}
+
+.logoname {
+    font-family: 'gyparody';
+    font-size: xx-large;
+    font: 200px;
+    display: flex;
+    padding-bottom: 5px;
+}
+img {
+    width: 600px;
+    justify-content: center;
+}
+
+button {
+    box-shadow: 5px 5px 5px #253237;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#playbtn {
+    margin-top: 50px;
+    background-color: #C2DFE3;
+    border: none;
+    border-radius: 12px;
+    color: #253237;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    padding: 20px;
+    width: 100%;
+
+}

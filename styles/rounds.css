@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    font-family: 'Korinna-Regular';
+}
+
+.titlelogo {
+    font-family: 'Korinna-Regular';
+    margin: 50px 20px auto;
+    padding: 20px;
+    color: #253237;
+    text-shadow: 2px 2px 2px #E0FBFC;
+}
+
+h1 {
+    margin: 50px auto;
+    font-size: 50px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    overflow: auto;
+    height: 100%;
+    width: auto;
+    background-image: linear-gradient(to bottom, #5C6B73, #9DB4C0, #C2DFE3);
+}
+
+h2 {
+    margin: 25px auto;
+    color: #E0FBFC;
+    text-shadow: 2px 2px 2px #253237;
+    font-size: 25px;
+}
+
+.gameboard-grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0px;
+
+}
+
+.category {
+    width: 150px;
+    border: 2px solid #253237;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: #E0FBFC;
+    color: #253237;
+    
+}
+.point-value {
+    width: 150px;
+    border: 2px solid #253237;
+    padding: 15px;
+    margin: 0px;
+    font-weight: bold;
+    background-color: #5C6B73;
+    color: #E0FBFC;
+}
+
+.rows {
+    border: 1px solid #253237;
+    flex-direction: column;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    box-sizing: border-box;
+    border-radius: 7px;
+    outline: none;
+}
+#guessbtn {
+    font-family: 'Korinna-Regular';
+    margin-top: 50px;
+    background-color: #C2DFE3;
+    border: none;
+    border-radius: 12px;
+    color: #253237;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#passbtn {
+    font-family: 'Korinna-Regular';
+    margin-top: 50px;
+    background-color: #C2DFE3;
+    border: none;
+    border-radius: 12px;
+    color: #253237;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.score {
+    display: inline-flex;
+    padding: 25px;
+    font: 40px;
+    align-items: end;
+}
+
+#next-round-btn {
+    justify-content: right;
+    margin: 25px;
+    font-family: 'Korinna-Regular';
+    color: #5C6B73;
+}
+
+button {
+    box-shadow: 5px 5px 5px #253237;
+    text-decoration: none;
+    background-color: #C2DFE3;
+    border: none;
+    border-radius: 12px;
+    color: #253237;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}

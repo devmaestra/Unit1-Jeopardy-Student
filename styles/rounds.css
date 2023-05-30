@@ -80,7 +80,13 @@ input[type=text] {
     border-radius: 7px;
     outline: none;
 }
-#guessbtn {
+
+.guess-passdiv {
+    display: flex;
+    gap: 3em;
+}
+
+/* #guessbtn {
     font-family: 'Korinna-Regular';
     margin-top: 50px;
     background-color: #C2DFE3;
@@ -108,7 +114,7 @@ input[type=text] {
     display: inline-flex;
     font-size: 16px;
     font-weight: bold;
-}
+} */
 
 a:link { text-decoration: none; }
 
@@ -117,23 +123,32 @@ a:visited { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .score {
-    display: inline-flex;
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
     padding: 25px;
     font: 40px;
-    align-items: end;
+    color: #253237;
+    text-decoration: none;
+}
+
+.round-btns {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #next-round-btn {
     justify-content: right;
     margin: 25px;
     font-family: 'Korinna-Regular';
-    color: #5C6B73;
+    color: #253237;
+    background-color: #E0FBFC;
 }
 
 button {
     box-shadow: 5px 5px 5px #253237;
-    text-decoration: none;
-    background-color: #C2DFE3;
+    font-family: 'Korinna-Regular';
+    background-color: #E0FBFC;
     border: none;
     border-radius: 12px;
     color: #253237;
@@ -144,6 +159,7 @@ button {
     font-size: 16px;
     font-weight: bold;
 }
+
 button:hover {
     cursor: pointer;
     opacity: 80%;

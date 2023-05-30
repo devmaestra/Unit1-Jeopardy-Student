@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    font-family: 'Korinna-Regular';
+}
+
+.titlelogo {
+    font-family: 'Korinna-Regular';
+    margin: 50px 20px auto;
+    padding: 20px;
+    color: #253237;
+    text-shadow: 2px 2px 2px #E0FBFC;
+}
+
+h1 {
+    margin: 50px auto;
+    font-size: 50px;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    overflow: auto;
+    height: 100%;
+    width: auto;
+    background-image: linear-gradient(to bottom, #5C6B73, #9DB4C0, #C2DFE3);
+}
+
+h2 {
+    margin: 25px auto;
+    color: #E0FBFC;
+    text-shadow: 2px 2px 2px #253237;
+    font-size: 25px;
+}
+
+.gameboard-grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+
+}
+
+.final-category {
+    width: 250px;
+    border: 2px solid #253237;
+    padding: 15px 150px;
+    font-weight: bolder;
+    background-color: #E0FBFC;
+    color: #253237;
+    
+}
+
+.final-question {
+    width: 250px;
+    border: 2px solid #253237;
+    padding: 150px;
+    margin: 0px 0px 20px;
+    font-weight: bold;
+    background-color: #5C6B73;
+    color: #E0FBFC;
+    font-size: large;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    outline: none;
+}
+
+.guess-passdiv {
+    display: flex;
+    gap: 3em;
+    margin-bottom: 30px;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.round-btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+#next-round-btn {
+    justify-content:space-around;
+    margin: 25px;
+    font-family: 'Korinna-Regular';
+    color: #253237;
+    background-color: #E0FBFC;
+}
+
+button {
+    box-shadow: 5px 5px 5px #253237;
+    font-family: 'Korinna-Regular';
+    background-color: #E0FBFC;
+    border: none;
+    border-radius: 12px;
+    color: #253237;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
